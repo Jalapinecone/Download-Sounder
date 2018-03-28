@@ -1,0 +1,20 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "description": "Plays a sound when you download a file!",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs1+2bkbK66J3yd8dGZFWSc6PK/YHKhQ1i8FM+DN0x9zJYPydnkfoJGIR/GTaPVjPCO7Gb8dsEmoOQJELwk/xoNcf/P8/7oQMnqxNtQXgpARHlhJbsQKfIBh6m8Cu6YFn8K8TNsYso1HYhh1Nhujivcofv0+ZUZcWAzwKl1GNuxN3vApTqpo9AhyMCYw1nU/KmJPiEXfrMMI5oxDHl1hs5jKmnYDaMgnN3tJysnUIoExJ0lRvvWBT51hF085wk4Btg5Jv6bzOcPi4+w6lq1tqFuQKrBinZAp4sXsUkmII8I62rcIuIv6u6SDgGkQqc/jA2H3aAXM0+Y4atko4vsj5TQIDAQAB",
+   "manifest_version": 2,
+   "name": "Download Sounder",
+   "options_ui": {
+      "chrome_style": true,
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "permissions": [ "downloads", "downloads.open", "notifications", "background", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
